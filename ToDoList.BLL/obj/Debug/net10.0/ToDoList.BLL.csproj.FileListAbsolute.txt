@@ -1,0 +1,15 @@
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.BLL\bin\Debug\net10.0\ToDoList.BLL.deps.json
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.BLL\bin\Debug\net10.0\ToDoList.BLL.dll
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.BLL\bin\Debug\net10.0\ToDoList.BLL.pdb
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.BLL\bin\Debug\net10.0\ToDoList.DAL.dll
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.BLL\bin\Debug\net10.0\ToDoList.DAL.pdb
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.BLL\obj\Debug\net10.0\ToDoList.BLL.csproj.AssemblyReference.cache
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.BLL\obj\Debug\net10.0\ToDoList.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.BLL\obj\Debug\net10.0\ToDoList.BLL.AssemblyInfoInputs.cache
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.BLL\obj\Debug\net10.0\ToDoList.BLL.AssemblyInfo.cs
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.BLL\obj\Debug\net10.0\ToDoList.BLL.csproj.CoreCompileInputs.cache
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.BLL\obj\Debug\net10.0\ToDoList.432375AA.Up2Date
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.BLL\obj\Debug\net10.0\ToDoList.BLL.dll
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.BLL\obj\Debug\net10.0\refint\ToDoList.BLL.dll
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.BLL\obj\Debug\net10.0\ToDoList.BLL.pdb
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.BLL\obj\Debug\net10.0\ref\ToDoList.BLL.dll

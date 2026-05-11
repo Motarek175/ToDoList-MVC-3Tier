@@ -1,0 +1,68 @@
+﻿@model IEnumerable<ToDoList.PL.ViewModel.GetTaskVM>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Tasks";
+}
+
+<h1 class="mb-4">To Do List</h1>
+<a asp-controller="Task"
+       asp-action="Create"
+       class="btn btn-primary mb-3">
+    Add Task
+</a>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var task in Model)
+        {
+            <tr>
+                <td>@task.Title</td>
+
+                <td>@task.Description</td>
+
+                <td>
+                    @if (task.IsCompleted)
+                    {
+                        <span class="text-success">Completed</span>
+                    }
+                    else
+                    {
+                        <span class="text-danger">Pending</span>
+                    }
+                </td>
+
+                <td>
+                    <a asp-controller="Task"
+                           asp-action="Delete"
+                           asp-route-id="@task.Id"
+                           class="btn btn-danger btn-sm">
+                        Delete
+                    </a>
+                    @if (!task.IsCompleted)
+                    {
+                        <a asp-controller="Task"
+                               asp-action="MarkAsComplete"
+                               asp-route-id="@task.Id"
+                               class="btn btn-success btn-sm">
+                            Complete
+                        </a>
+                    }
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>

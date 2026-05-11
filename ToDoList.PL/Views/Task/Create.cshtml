@@ -1,0 +1,43 @@
+﻿@model ToDoList.PL.ViewModel.CreateTaskVM
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@{
+    ViewData["Title"] = "Create Task";
+}
+
+<h1 class="mb-4">Create New Task</h1>
+
+<form asp-controller="Task" asp-action="Create" method="post">
+
+    <div class="mb-3">
+
+        <label asp-for="Title" class="form-label"></label>
+
+        <input asp-for="Title" class="form-control" />
+
+    </div>
+
+    <div class="mb-3">
+
+        <label asp-for="Description" class="form-label"></label>
+
+        <textarea asp-for="Description" class="form-control"></textarea>
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Add Task
+    </button>
+
+    <a asp-controller="Task"
+           asp-action="Index"
+           class="btn btn-secondary">
+        Back
+    </a>
+
+</form>

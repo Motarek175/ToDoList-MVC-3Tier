@@ -1,0 +1,14 @@
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\bin\Debug\net10.0\ToDoList.DAL.deps.json
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\bin\Debug\net10.0\ToDoList.DAL.runtimeconfig.json
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\bin\Debug\net10.0\ToDoList.DAL.dll
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\bin\Debug\net10.0\ToDoList.DAL.pdb
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\obj\Debug\net10.0\ToDoList.DAL.csproj.AssemblyReference.cache
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\obj\Debug\net10.0\ToDoList.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\obj\Debug\net10.0\ToDoList.DAL.AssemblyInfoInputs.cache
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\obj\Debug\net10.0\ToDoList.DAL.AssemblyInfo.cs
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\obj\Debug\net10.0\ToDoList.DAL.csproj.CoreCompileInputs.cache
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\obj\Debug\net10.0\ToDoList.DAL.dll
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\obj\Debug\net10.0\refint\ToDoList.DAL.dll
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\obj\Debug\net10.0\ToDoList.DAL.pdb
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\obj\Debug\net10.0\ToDoList.DAL.genruntimeconfig.cache
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\obj\Debug\net10.0\ref\ToDoList.DAL.dll
