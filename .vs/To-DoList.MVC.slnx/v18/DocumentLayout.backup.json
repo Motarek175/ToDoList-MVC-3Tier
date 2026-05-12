@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3180EF10-5121-10A6-51FA-EB0063A8E4D3}|ToDoList.PL\\ToDoList.PL.csproj|c:\\users\\fcb64\\dropbox\\pc\\desktop\\iti\\sessions\\mvc\\mvc 3 tiers\\to-dolist.mvc\\todolist.pl\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3180EF10-5121-10A6-51FA-EB0063A8E4D3}|ToDoList.PL\\ToDoList.PL.csproj|solutionrelative:todolist.pl\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8F94CA7D-53A8-2A39-F9F9-02DD33D849ED}|ToDoList.DAL\\ToDoList.DAL.csproj|c:\\users\\fcb64\\dropbox\\pc\\desktop\\iti\\sessions\\mvc\\mvc 3 tiers\\to-dolist.mvc\\todolist.dal\\repositories\\implementations\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F94CA7D-53A8-2A39-F9F9-02DD33D849ED}|ToDoList.DAL\\ToDoList.DAL.csproj|solutionrelative:todolist.dal\\repositories\\implementations\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3180EF10-5121-10A6-51FA-EB0063A8E4D3}|ToDoList.PL\\ToDoList.PL.csproj|c:\\users\\fcb64\\dropbox\\pc\\desktop\\iti\\sessions\\mvc\\mvc 3 tiers\\to-dolist.mvc\\todolist.pl\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3180EF10-5121-10A6-51FA-EB0063A8E4D3}|ToDoList.PL\\ToDoList.PL.csproj|solutionrelative:todolist.pl\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9540579-A754-8143-B573-3BC91921E970}|ToDoList.BLL\\ToDoList.BLL.csproj|c:\\users\\fcb64\\dropbox\\pc\\desktop\\iti\\sessions\\mvc\\mvc 3 tiers\\to-dolist.mvc\\todolist.bll\\services\\implementations\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9540579-A754-8143-B573-3BC91921E970}|ToDoList.BLL\\ToDoList.BLL.csproj|solutionrelative:todolist.bll\\services\\implementations\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.PL\\Views\\Auth\\Register.cshtml",
-              "RelativeDocumentMoniker": "ToDoList.PL\\Views\\Auth\\Register.cshtml",
-              "ToolTip": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.PL\\Views\\Auth\\Register.cshtml",
-              "RelativeToolTip": "ToDoList.PL\\Views\\Auth\\Register.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADoAAAB1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-12T18:32:45.617Z",
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.DAL\\Repositories\\Implementations\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "ToDoList.DAL\\Repositories\\Implementations\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.DAL\\Repositories\\Implementations\\TaskRepository.cs",
+              "RelativeToolTip": "ToDoList.DAL\\Repositories\\Implementations\\TaskRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:20:40.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.PL\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "ToDoList.PL\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.PL\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "ToDoList.PL\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAqwDYAAAAAAAAAAAAAAA==",
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.BLL\\Services\\Implementations\\TaskService.cs",
+              "RelativeDocumentMoniker": "ToDoList.BLL\\Services\\Implementations\\TaskService.cs",
+              "ToolTip": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.BLL\\Services\\Implementations\\TaskService.cs",
+              "RelativeToolTip": "ToDoList.BLL\\Services\\Implementations\\TaskService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwD0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T18:16:10.406Z",
+              "WhenOpened": "2026-05-12T21:15:52.659Z",
               "EditorCaption": ""
             }
           ]

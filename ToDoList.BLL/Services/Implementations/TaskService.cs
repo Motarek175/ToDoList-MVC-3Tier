@@ -20,7 +20,7 @@ namespace ToDoList.BLL.Services.Implementations
                 Title = task.Title,
                 Description = task.Description,
                 IsCompleted = false,
-                UserId = task.UserId
+                UserId = task.UserId,
             };
             _taskRepository.Add(AddedTask);
         }

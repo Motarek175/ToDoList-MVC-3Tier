@@ -33,11 +33,14 @@ namespace ToDoList.DAL.Repositories.Implementations
         }
         public IEnumerable<TDLTask> GetAll(string userId)
         {
-            return _context.Tasks.Where(t => t.UserId == userId).ToList();
+            return _context.Tasks
+                .Include(t => t.User)
+                .Where(t => t.UserId == userId)
+                .ToList();
         }
         public TDLTask GetById(int id)
         {
-            var task = _context.Tasks.FirstOrDefault(t => t.Id == id);
+            var task = _context.Tasks.Include(t => t.User).FirstOrDefault(t => t.Id == id);
             if (task == null)
             {
                 throw new KeyNotFoundException($"Task with ID {id} not found.");
