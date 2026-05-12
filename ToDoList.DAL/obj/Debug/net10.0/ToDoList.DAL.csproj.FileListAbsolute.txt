@@ -12,3 +12,4 @@ C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToD
 C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\obj\Debug\net10.0\ToDoList.DAL.pdb
 C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\obj\Debug\net10.0\ToDoList.DAL.genruntimeconfig.cache
 C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\obj\Debug\net10.0\ref\ToDoList.DAL.dll
+C:\Users\fcb64\Dropbox\PC\Desktop\iti\Sessions\MVC\MVC 3 Tiers\To-DoList.MVC\ToDoList.DAL\obj\Debug\net10.0\ToDoList.DAL.sourcelink.json

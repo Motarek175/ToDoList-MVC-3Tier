@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3180EF10-5121-10A6-51FA-EB0063A8E4D3}|ToDoList.PL\\ToDoList.PL.csproj|c:\\users\\fcb64\\dropbox\\pc\\desktop\\iti\\sessions\\mvc\\mvc 3 tiers\\to-dolist.mvc\\todolist.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3180EF10-5121-10A6-51FA-EB0063A8E4D3}|ToDoList.PL\\ToDoList.PL.csproj|solutionrelative:todolist.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3180EF10-5121-10A6-51FA-EB0063A8E4D3}|ToDoList.PL\\ToDoList.PL.csproj|c:\\users\\fcb64\\dropbox\\pc\\desktop\\iti\\sessions\\mvc\\mvc 3 tiers\\to-dolist.mvc\\todolist.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3180EF10-5121-10A6-51FA-EB0063A8E4D3}|ToDoList.PL\\ToDoList.PL.csproj|solutionrelative:todolist.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3180EF10-5121-10A6-51FA-EB0063A8E4D3}|ToDoList.PL\\ToDoList.PL.csproj|c:\\users\\fcb64\\dropbox\\pc\\desktop\\iti\\sessions\\mvc\\mvc 3 tiers\\to-dolist.mvc\\todolist.pl\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3180EF10-5121-10A6-51FA-EB0063A8E4D3}|ToDoList.PL\\ToDoList.PL.csproj|solutionrelative:todolist.pl\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ToDoList.PL\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ToDoList.PL\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAADoAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-10T14:11:50.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.PL\\Program.cs",
-              "RelativeDocumentMoniker": "ToDoList.PL\\Program.cs",
-              "ToolTip": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.PL\\Program.cs",
-              "RelativeToolTip": "ToDoList.PL\\Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwCoAAAA2AAAAAAAAAA==",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.PL\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ToDoList.PL\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.PL\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ToDoList.PL\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T14:11:39.509Z",
+              "WhenOpened": "2026-05-12T15:39:09.857Z",
               "EditorCaption": ""
             }
           ]

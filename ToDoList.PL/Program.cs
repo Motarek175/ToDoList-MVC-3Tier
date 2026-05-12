@@ -47,7 +47,8 @@ namespace ToDoList.PL
             // Dependency Injection
             builder.Services.AddScoped<ITaskRepository, TaskRepository>();
             builder.Services.AddScoped<ITaskService, TaskService>();
-
+            builder.Services.AddScoped<IUsersRepository, UsersRepository>();
+            builder.Services.AddScoped<IUsersService, UsersService>();
             // Build the app
             var app = builder.Build();
 

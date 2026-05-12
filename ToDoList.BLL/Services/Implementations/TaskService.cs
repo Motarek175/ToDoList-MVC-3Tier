@@ -30,6 +30,24 @@ namespace ToDoList.BLL.Services.Implementations
             _taskRepository.Delete(id);
         }
 
+        IEnumerable<GetTaskDTO> ITaskService.GetAll()
+        {
+            var tasks = _taskRepository.GetAll();
+            return tasks.Select(t => new GetTaskDTO
+            {
+                Id = t.Id,
+
+                Title = t.Title,
+
+                Description = t.Description,
+
+                IsCompleted = t.IsCompleted,
+
+                UserName = t.User.UserName
+            });
+        }
+
+
         IEnumerable<GetTaskDTO> ITaskService.GetAll(string userId)
         {
             var tasks = _taskRepository.GetAll(userId);
@@ -39,6 +57,7 @@ namespace ToDoList.BLL.Services.Implementations
                 Title = t.Title,
                 Description = t.Description,
                 IsCompleted = t.IsCompleted,
+                UserName = t.User.UserName
             });
         }
 
@@ -54,6 +73,7 @@ namespace ToDoList.BLL.Services.Implementations
                 Title = task.Title,
                 Description = task.Description,
                 IsCompleted = task.IsCompleted,
+                UserName = task.User.UserName
             };
         }
 

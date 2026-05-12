@@ -23,83 +23,213 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container">
-                <p class="fw-bold my-0 mx-3  text-success">
-                    ToDoList
-                </p>
-                <button class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse"
-                     id="navbarNav">
-                    <ul class="navbar-nav me-auto">
-                        @if (User.Identity.IsAuthenticated)
-                        {
+      @if (User.IsInRole("User"))
+        {
+        <header>
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+
+                <div class="container">
+
+                    <p class="fw-bold my-0 mx-3 text-warning">
+                        ToDoList
+                    </p>
+
+                    <div class="collapse navbar-collapse"
+                         id="navbarNav">
+
+                        <ul class="navbar-nav me-auto">
+
                             <li class="nav-item">
+
                                 <a class="nav-link"
                                        asp-controller="Home"
                                        asp-action="Index">
                                     Home
                                 </a>
+
                             </li>
+
                             <li class="nav-item">
+
                                 <a class="nav-link"
                                        asp-controller="Task"
                                        asp-action="Index">
                                     Tasks
                                 </a>
                             </li>
-                        }
-                    </ul>
-                    <ul class="navbar-nav d-flex justify-content-center align-items-center gap-3">
-                        @if (User.Identity.IsAuthenticated)
-                        {
+
+
+                        </ul>
+
+                        <ul class="navbar-nav d-flex justify-content-center align-items-center gap-3">
+
                             <li class="nav-item">
 
-                                <span class="nav-link fw-bold">
+                                <span class="nav-link fw-bold text-white">
+
                                     @User.Identity.Name
-                                <br>
-                                    <span>
-                                        Role: @(User.IsInRole("Admin") ? "Admin" : "User")
+
+                                    <br>
+
+                                    <span class="text-warning">
+                                        Role: User
                                     </span>
+
                                 </span>
+
                             </li>
+
                             <li class="nav-item">
+
                                 <a class="nav-link bg-danger text-white btn btn-danger fw-bold"
                                        asp-controller="Auth"
                                        asp-action="Logout">
                                     Logout
                                 </a>
+
                             </li>
-                        }
-                        else
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                       asp-controller="Auth"
-                                       asp-action="Login">
-                                    Login
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link"
-                                       asp-controller="Auth"
-                                       asp-action="Register">
-                                    Register
-                                </a>
-                            </li>
-                        }
-                    </ul>
+
+                        </ul>
+
+                    </div>
+
                 </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container mt-4">
+
+            </nav>
+
+        </header>
+        }
+        else if (User.IsInRole("Admin"))
+        {
+            <header>
+
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+
+                    <div class="container">
+
+                        <p class="fw-bold my-0 mx-3 text-warning">
+                            Admin Panel
+                        </p>
+
+                        <button class="navbar-toggler"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#adminNavbar">
+
+                            <span class="navbar-toggler-icon"></span>
+
+                        </button>
+
+                        <div class="collapse navbar-collapse"
+                             id="adminNavbar">
+
+                            <ul class="navbar-nav me-auto">
+
+                                <li class="nav-item">
+
+                                    <a class="nav-link"
+                                       asp-controller="Home"
+                                       asp-action="Index">
+                                        Dashboard
+                                    </a>
+
+                                </li>
+
+                                <li class="nav-item">
+
+                                    <a class="nav-link"
+                                       asp-controller="Admin"
+                                       asp-action="Tasks">
+                                        Manage Tasks
+                                    </a>
+
+                                </li>
+
+                                <li class="nav-item">
+
+                                    <a class="nav-link"
+                                       asp-controller="Admin"
+                                       asp-action="Users">
+                                        Users
+                                    </a>
+
+                                </li>
+
+                            </ul>
+
+                            <ul class="navbar-nav d-flex justify-content-center align-items-center gap-3">
+
+                                <li class="nav-item">
+
+                                    <span class="nav-link fw-bold text-white">
+
+                                        @User.Identity.Name
+
+                                        <br>
+
+                                        <span class="text-warning">
+                                            Role: Admin
+                                        </span>
+
+                                    </span>
+
+                                </li>
+
+                                <li class="nav-item">
+
+                                    <a class="nav-link bg-danger text-white btn btn-danger fw-bold"
+                                       asp-controller="Auth"
+                                       asp-action="Logout">
+                                        Logout
+                                    </a>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </nav>
+
+            </header>
+        }
+        else
+        {
+            <header>
+
+                <nav class="navbar navbar-expand-lg">
+
+                    <div class="container">
+
+                        <p class="fw-bold my-0 mx-3 text-success">
+                            ToDoList
+                        </p>
+
+                        <div class="ms-auto d-flex gap-3">
+
+                            <a class="nav-link"
+                                asp-controller="Auth"
+                                asp-action="Login">
+                                Login
+                            </a>
+                            <a class="nav-link"
+                                asp-controller="Auth"
+                                asp-action="Register">
+                                Register
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </nav>
+
+            </header>
+        }
+        <div class="container mt-4">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -111,3 +241,5 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+

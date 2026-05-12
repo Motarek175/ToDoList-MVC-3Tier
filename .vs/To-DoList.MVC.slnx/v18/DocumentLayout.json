@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3180EF10-5121-10A6-51FA-EB0063A8E4D3}|ToDoList.PL\\ToDoList.PL.csproj|c:\\users\\fcb64\\dropbox\\pc\\desktop\\iti\\sessions\\mvc\\mvc 3 tiers\\to-dolist.mvc\\todolist.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3180EF10-5121-10A6-51FA-EB0063A8E4D3}|ToDoList.PL\\ToDoList.PL.csproj|solutionrelative:todolist.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3180EF10-5121-10A6-51FA-EB0063A8E4D3}|ToDoList.PL\\ToDoList.PL.csproj|c:\\users\\fcb64\\dropbox\\pc\\desktop\\iti\\sessions\\mvc\\mvc 3 tiers\\to-dolist.mvc\\todolist.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3180EF10-5121-10A6-51FA-EB0063A8E4D3}|ToDoList.PL\\ToDoList.PL.csproj|solutionrelative:todolist.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,32 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ToDoList.PL\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ToDoList.PL\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-10T14:11:50.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.PL\\Program.cs",
-              "RelativeDocumentMoniker": "ToDoList.PL\\Program.cs",
-              "ToolTip": "C:\\Users\\fcb64\\Dropbox\\PC\\Desktop\\iti\\Sessions\\MVC\\MVC 3 Tiers\\To-DoList.MVC\\ToDoList.PL\\Program.cs",
-              "RelativeToolTip": "ToDoList.PL\\Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwCoAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T14:11:39.509Z",
-              "EditorCaption": ""
             }
           ]
         }

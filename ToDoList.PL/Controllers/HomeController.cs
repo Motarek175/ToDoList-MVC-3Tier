@@ -5,7 +5,7 @@ using ToDoList.PL.Models;
 
 namespace ToDoList.PL.Controllers
 {
-    [Authorize(Roles = "User")]
+    [Authorize]
     public class HomeController : Controller
     {
         public IActionResult Index()

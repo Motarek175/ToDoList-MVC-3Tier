@@ -2,21 +2,57 @@
     ViewData["Title"] = "Home Page";
 }
 
+<div class="container mt-5">
 
-<div class="text-center mt-5">
+    @if (User.IsInRole("Admin"))
+    {
+        <div class="text-center">
 
-    <h1 class="display-4 mb-3">
-        Welcome To ToDo List App
-    </h1>
+            <h1 class="display-4 mb-3 text-danger">
+                Admin Dashboard
+            </h1>
 
-    <p class="lead mb-4">
-        Organize your tasks easily and track your progress.
-    </p>
+            <p class="lead mb-4">
+                Manage users, tasks, and monitor the whole system.
+            </p>
 
-    <a asp-controller="Task"
-           asp-action="Index"
-           class="btn btn-primary btn-lg">
-        Go To Tasks
-    </a>
+            <div class="d-flex justify-content-center gap-3">
+
+                <a asp-controller="Admin"
+                       asp-action="Tasks"
+                       class="btn btn-dark btn-lg">
+                    Manage Tasks
+                </a>
+
+                <a asp-controller="Admin"
+                       asp-action="Users"
+                       class="btn btn-outline-dark btn-lg">
+                    Manage Users
+                </a>
+
+            </div>
+
+        </div>
+    }
+    else if (User.IsInRole("User"))
+    {
+        <div class="text-center">
+
+            <h1 class="display-4 mb-3 text-success">
+                Welcome To ToDo List App
+            </h1>
+
+            <p class="lead mb-4">
+                Organize your tasks easily and track your progress.
+            </p>
+
+            <a asp-controller="Task"
+                   asp-action="Index"
+                   class="btn btn-success btn-lg">
+                Go To Tasks
+            </a>
+
+        </div>
+    }
 
 </div>

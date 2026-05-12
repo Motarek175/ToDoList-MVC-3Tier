@@ -1,4 +1,5 @@
-﻿using ToDoList.DAL.Database;
+﻿using Microsoft.EntityFrameworkCore;
+using ToDoList.DAL.Database;
 using ToDoList.DAL.Entity;
 using ToDoList.DAL.Repositories.Interfaces;
 
@@ -25,6 +26,10 @@ namespace ToDoList.DAL.Repositories.Implementations
             }
             _context.Tasks.Remove(task);
             _context.SaveChanges();
+        }
+        public IEnumerable<TDLTask> GetAll()
+        {
+            return _context.Tasks.Include(t => t.User).ToList();
         }
         public IEnumerable<TDLTask> GetAll(string userId)
         {
