@@ -27,26 +27,32 @@ namespace ToDoList.PL.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterVM registerVM)
         {
-            var user = new IdentityUser
+            if (ModelState.IsValid)
             {
-                UserName = registerVM.UserName,
-                Email = registerVM.Email,
-                PhoneNumber = registerVM.PhoneNumber,
-            };
-            var result = await _userManager.CreateAsync(user, registerVM.Password);
-            if (result.Succeeded)
-            {
-                var rolrReult = await _userManager.AddToRoleAsync(user, "User");
-                return RedirectToAction("Login", "Auth");
-            }
-            else
-            {
-                foreach (var error in result.Errors)
+                var user = new IdentityUser
                 {
-                    ModelState.AddModelError("", error.Description);
+                    UserName = registerVM.UserName,
+                    Email = registerVM.Email,
+                    PhoneNumber = registerVM.PhoneNumber,
+                };
+                var result = await _userManager.CreateAsync(user, registerVM.Password);
+                if (result.Succeeded)
+                {
+                    var rolrReult = await _userManager.AddToRoleAsync(user, "User");
+                    return RedirectToAction("Login", "Auth");
+                }
+                else
+                {
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError("", error.Description);
+                    }
                 }
             }
-            return View();
+
+            ModelState.AddModelError("", "Please fill in all fields");
+            return View(registerVM);
+
         }
         [HttpGet]
         public IActionResult Login()
@@ -60,12 +66,25 @@ namespace ToDoList.PL.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginVM loginVM)
         {
-            var result = await _signInManager.PasswordSignInAsync(loginVM.UserName, loginVM.Password, false, false);
-            if (!result.Succeeded)
+            if (ModelState.IsValid)
             {
-                throw new Exception("");
+                var result = await _signInManager.PasswordSignInAsync(loginVM.UserName, loginVM.Password, false, false);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Invalid username or password");
+                    return View();
+                }
             }
-            return RedirectToAction("Index", "Home");
+            else
+            {
+                ModelState.AddModelError("", "Please fill in all fields");
+                return View(loginVM);
+            }
+
         }
         public async Task<IActionResult> Logout()
         {
